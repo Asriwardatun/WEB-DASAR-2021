@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title> 
+
+</head>
+
+<body>
+
+<form action="" method="post">
+	
+	<table width="700px">
+		<tr>
+			<th width="180px">
+				
+			</th>
+			<th width="30px">
+				
+			</th>
+			<th width="150px">FORM BIODATA</th>
+		</tr>
+			
+				
+			
+			
+		
+			
+		<tr>
+			<td><label for="nama">NIM</label></td> 
+			<td>:</td>
+			<td><input required type="text" name="nim" id="nim" placeholder="Masukan Nim anda"></td>
+		</tr>
+
+		<tr>
+			<td><label for="nama">NAMA</label></td>
+			<td>:</td>
+			<td><input required type="text" name="nama" id="nama"></td>
+		</tr>
+
+		<tr>
+			<td><label for="jk">JENIS KELAMIN</label></td>
+			<td>	:	</td>
+			<td><input type="radio" name="jk" id='jk' value="L"> Laki-Laki
+			<input required type="radio" name="jk" id='jk' value="P"> Perempuan </td>
+		</tr>
+
+		<tr>
+			<td><label for="Jurusan">JURUSAN</label></td>
+			<td>:</td>
+			<td><select name="Jurusan">
+				<option value="">Pilih Jurusan :</option>
+				<option value="D3SI">D3SI</option>
+				<option selected value="S1RPL">S1RPL</option>
+				</select> </td> 
+		</tr>
+
+		<tr>
+			<td><label for="hobby">HOBBY</label></td>
+			<td>:</td>
+			<td><input type="checkbox" name="hobby" value="komputer"> Komputer 
+			<input type="checkbox" name="hobby" value="Musik"> Musik
+			<input type="checkbox" name="hobby" value="olahraga"> Olahraga
+			<input type="checkbox" name="hobby" value="Travelling"> Travelling </td>
+		</tr>
+
+		<tr>
+			<td><label for="catatan">CATATAN</label></td>
+			<td>:</td>
+			<td><textarea required="catatan" id="catatan" cols="50" rows="4"></textarea></td>
+		</tr>
+
+		<tr>
+			<td><label for="foto">FOTO</label></td>
+			<td>:</td>
+			<td><input type="file" name="foto" accept="image/*"></td>
+		</tr>
+
+		<tr>
+			<td><label for="email">EMAIL</label></td>
+			<td>:</td>
+			<td><input required type="text" name="email" id="email"></td>
+		</tr>
+
+		<tr>
+			<td><label for="password">SANDI LOGIN</label></td>
+			<td>:</td>
+			<td><input type="password" name="password"></tr>
+		</tr>
+
+		<tr>
+			<td><label for="password">ULANGI SANDI LOGIN</label></td>
+			<td>:</td>
+			<td><input type="password" name="password"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="submit" name="submit" value="Simpan Data">
+			<input type="reset" value="Batal">
+			<button type="botton" onclick="alert('silahkan isi semua colom!')">Peringatan</button></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>
