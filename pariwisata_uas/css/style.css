@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background-color: rgb(188, 206, 243);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: rgb(87, 55, 55) 2px 2px 5px 0px;
+  padding: 30px;
+}
+.textjudul {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.textform {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: rgb(13, 13, 14);
+}
+.text-hover {
+  text-decoration: none;
+  color: black;
+}
+.text-hover:hover {
+  text-decoration: none;
+  color: rgb(13, 13, 14);
+  font-weight: bold;
+}
+.btn {
+  border-radius: 10px;
+}
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+.form-control {
+  border-radius: 10px;
+}
+.input-group-text {
+  border-radius: 10px;
+}
+
+.form-container-a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: rgb(87, 55, 55) 2px 2px 5px 0px;
+  padding: 30px;
+}
+.img-kategory {
+  width: 50px;
+}
+.img-kategory:hover {
+  transform: scale(1.2);
+  transition: 0, 2s;
+}
+.row-container {
+  background-color: white;
+}
+.card:hover {
+  border: 1px solid black;
+}
+.judul-kategori {
+  padding: 5px 10px;
+  margin: -12px;
+}
+.row-produk {
+  background-color: white;
+  padding: 5px;
+  margin: 0px;
+  padding-top: 16px;
+}
+.garis-nama {
+  border-bottom: 2px solid #2d2d2d;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.btn-custom {
+  padding: 10px;
+  font-size: 14px;
+}
+.review-img {
+  width: 50px;
+}
+.review-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.review-desc {
+  font-size: 14px;
+}
+.descripsi {
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.descripsi::-webkit-scrollbar {
+  display: none;
+}
+.review {
+  height: 250px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.th-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  #table-checout {
+    width: 40%;
+  }
+}
